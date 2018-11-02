@@ -2,6 +2,7 @@
 This is a tool for encoding sensitive documents so that the documents:
 1) cannot be meaningfully recovered; and 
 2) can be analyzed by bag of words tools, such as LIWC, LSA, and topic modeling.
+
 To accomplish this, we use dictionary of common words in English do simple word counting,
 recording the word counts for each dictionary entry that occurs in a document. 
 Each document is converted to a frequence count matrix. 
